@@ -397,7 +397,7 @@
         if (newSong.id === oldSong.id) {
           return
         }
-        if (this.currenctLyric) {
+        if (this.currentLyric) {
           this.currentLyric.stop()
           this.currentTime = 0
           this.playingLyric = ''
